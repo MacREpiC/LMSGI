@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1><font face="Segoe UI">Enlaces, imagenes y formularios</font></h1>
+        <hr size="3" color="black">
+
+        <p>Pondré ejemplos en los que usaré y explicaré brevemente las etiquetas y atributos más importantes del PDF Vol. V.</p>
+
+        <p><b><u>Enlaces</u></b></p>
+        <p>Atributo <b><i>&lt;href&gt;</i></b> se utiliza para poner URL internas hacia archivos HTML o hacia sitios web.</p>
+        <p><font face="Consolas">&lt;a href=https://google.com&gt;</font></p>
+        <p>Etiqueta <b><i>&lt;form&gt;</i></b> se utiliza para indicar que a continuación vas a hacer un formulario. Dentro de ella se pueden poner atributos como <b><i>action="emailto:pepe@gmail.com"</i></b>.</p>
+        <p><font face="Consolas">&lt;a name="arriba"&gt&lt;/a&gt;</font></p>
+        <p>Crea un marcador en la página con el nombre "arriba". No tiene texto visible ni contenido visible para el usuario.</p>
+        <p><font face="Consolas">&lt;a href="arriba"&gtQuiero ir arriba!!!&lt;/a&gt;</font></p>
+        <p>Este es un enlace que incluye texto visible para el usuario ("Quiero ir arriba!!"). El atributo href está configurado con el valor #arriba para mandar al usuario hacia arriba.</p>
+        
+        <p><b><u>Formularios</u></b></p>
+        <p>Etiqueta <b><i>&lt;fieldset&gt;</i></b> es utilizada para agrupar elementos relacionados en un formulario dentro de un cuadro. Se utiliza para estructurar y organizar formularios, ayudando a mejorar la accesibilidad y la legibilidad del código.</p>
+        <p>Etiqueta <b><i>&lt;legend&gt;</i></b>  Esta etiqueta se utiliza dentro de un elemento <b><i>&lt;fieldset&gt;</i></b>. Define una leyenda o título descriptivo para el grupo de elementos relacionados que están dentro del <b><i>&lt;fieldset&gt;</i></b>. Proporciona una descripción o contexto para los elementos agrupados.</p>
+        <p>Etiqueta <b><i>&lt;botton&gt</i></b>se utiliza para crear un botón en una página web. Puede contener texto, imágenes u otros elementos HTML anidados dentro de ella. Esta puede tener los siguientes atributos:</p>
+        <ul>
+            <li><b><i>type</i></b> Define el tipo de botón. En este caso, cuando se establece como "button", indica que se trata de un botón estándar. Otros valores posibles para este atributo incluyen "submit" para enviar formularios y "reset" para restablecer los campos de un formulario.</li>
+            <li><b><i>name</i></b> Nombre del botón (se utiliza al enviar formularios).</li>
+            <li><b><i>value</i></b> Valor asociado al botón (se utiliza al enviar formularios).</li>
+        </ul>
+        <p>Los botones se pueden crear de la siguiente foma:</p>
+        <p><font face="Consolas">&lt;input type="button" value="Haz clic aquí"&gt;</font></p>
+
+        <p><b><u>Imágenes</u></b></p>
+        <p>Para insertar una imagen en HTML, se utiliza la etiqueta <b><i>&lt;img&gt;</i></b>. El atributo <b><i>src</i></b> especifica la URL o la ruta de la imagen.</p>
+        <p>Para configurar el ancho y el alto de la imagen, se utilizan los atributos <b><i>width</i></b> y <b><i>height</i></b>. Estos atributos pueden establecerse en píxeles (px) o porcentajes (%).</p>
+        <p><font face="Consolas">&lt;img src="ruta_de_la_imagen.jpg" alt="Descripción de la imagen" width="300" height="200"&gt;</font></p>
+        <p>Aquí dejo un <a href="4-enlaces-imagenes-y-formularios.html">enlace</a> de un formulario en el que hago uso de casi todas las etiquetas y atributos que explico aquí</p>
+    </body>
+</html>

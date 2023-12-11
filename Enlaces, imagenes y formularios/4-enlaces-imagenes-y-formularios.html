@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enlaces, imágenes y formularios</title>
+</head>
+<body bgcolor="#FF8E00">
+    <h1><font face="Segoe UI">Enlaces, imágenes y formularios</font></h1>
+    <hr size="3" color="black">
+    <p>Haré un anuncio en el que usaré las etiquetas y atributos más importantes de los PDFs Vol. V y VII.</p>
+
+    <!-- HREF -->
+    <a name="arriba"></a>
+    <a href="#abajo">Quiero ir abajo!!</a> <br><br><br>
+    <!-- HREF -->
+
+    <!-- Contenido -->
+    <p><font face="Arial Black">HABITACIÓN DE HOTEL EN CALIFORNIA</font></p>
+
+    <img src="hotel.png" width="30%" height="30%" border="1" alt="imagen habitación"/>
+    <p><u>Alquila tu habitación en un hotel en California por un precio muy barato. Solo rellena este pequeño cuestionario para reservar la habitación y algunas opciones extra que te gustaría tener.</u></p>
+    <p>Puedes visitar nuestra <a href="https://www.irvinecompany.com/">página web</a> para saber más sobre los hoteles que tenemos en California.</p>
+    <p>También puedes enviarnos un correo electrónico si tienes alguna duda. Pincha <a href="mailto:irvinecompany@gmail.com?subject=Solicitud de más información">aquí</a> para abrir un correo hacia nosotros con asunto incluido.<br></p>
+
+    <!-- Formulario -->
+    <form action="emailto:pepe@gmail.com" method="post">
+        <fieldset>
+            <legend>Rellenar</legend>
+            Introduzca su nombre:<input type="text" name="Nombre">
+            <br>
+            Introduzca una clave para su identificación (4 letras):<input type="text" name="Clave">
+            <br><br>
+
+            <u>Sexo:</u><br/>
+            <input type="radio" name="sexo" value="hombre" id="sexo" checked="checked" /> Hombre 
+            <input type="radio" name="sexo" value="mujer" /> Mujer
+            <br/><br/>
+
+            <u>Tipo de habitación:</u><br>
+            <input type="radio" name="Tipo" value="Individual"/>Individual
+            <input type="radio" name="Tipo" value="Doble"/>Doble
+            <br><br>
+
+            <u>Opciones extras:</u><br>
+            <input type="checkbox" name="Extras[]" value="Desayuno en cama"> Desayuno en cama
+            <input type="checkbox" name="Extras[]" value="Jacuzzi"> Jacuzzi
+            <input type="checkbox" name="Extras[]" value="Climatizador"> Climatizador
+            <br>
+            <br>
+            <input type="submit" name="enviar" value="Enviar"/>
+            <input type="reset" name="Restablecer">
+        </fieldset>
+    </form>
+    <!-- Fin del formulario -->
+
+    <a name="abajo"></a>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <a href="#arriba">Quiero ir arriba!!</a>
+
+    <br/>
+    <table border="1">
+        <tr>
+            <td><a href="Frame\presentacion.html">Volver a Presentación</a></td>
+        </tr>
+    </table>
+</body>
+</html>

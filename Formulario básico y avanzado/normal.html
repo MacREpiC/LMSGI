@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+    <body>
+        <form>
+            <label>Rellene</label>
+            <br>
+            <label>
+                <input type="radio" name="idioma" value="idiomaingles"> Inglés
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="idioma" value="idiomaaleman"> Alemán
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="idioma" value="idiomafrances"> Francés
+            </label>
+            <br><br>
+            <select name="conector" id="conector">
+                <option value="usb">USB</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="ps2">PS2</option>
+            </select>
+            <br><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+            <br><br>
+            <label>Indique sus preferencias por favor</label>
+            <br>
+            <select name="sexo" id="sexo" multiple>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+            <br><br>
+            <label>
+                <input type="checkbox" name="sexo" value="sexomujer"> Mujer
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="sexo" value="sexohombre"> Hombre
+            </label>
+            <br><br>
+            <label for="fecha">Elija una fecha</label>
+            <input type="date" id="fecha" name="fecha">
+            <br><br>
+            <form action="mailto:pepe@ejemplo.com" method="post">
+                <input type="submit" value="Enviar">
+            </form>
+            <input type="reset" value="Limpiar">
+        </form>
+    </body>
+</html>

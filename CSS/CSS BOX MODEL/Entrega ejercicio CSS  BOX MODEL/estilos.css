@@ -1,0 +1,15 @@
+h1 {
+    border-bottom: 2px solid #00F; /* Borde inferior de 2px, sólido y azul (#00F) */
+}
+h2 {
+    border: 2px solid #AAA; /* Borde completo de 2px, sólido y gris (#AAA) */
+}
+/* Lista con los datos del libro */
+#datos-libro {
+    border-top: 4px dotted #F00; /* Borde superior de 4px, punteado y rojo (#F00) */
+    border-bottom: 4px dotted #F00; /* Borde inferior de 4px, punteado y rojo (#F00) */
+}
+/* Lista con el contenido del libro */
+#contenido-libro {
+    border: 2px dashed #0F0; /* Borde completo de 2px, con guiones y verde (#0F0) */
+}

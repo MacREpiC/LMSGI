@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Efecto de borde rojo sin cambiar el fondo</title>
+  <style>
+    /* Estilos CSS */
+    ul {
+      padding: 0; /* Eliminar el relleno predeterminado de la lista */
+      list-style: none; /* Quitar los puntos de la lista */
+    }
+
+    li {
+      margin-bottom: 5px; /* Añadir un poco de espacio entre elementos */
+      color: #ffffff;
+      background-color: blue; /* Fondo azul por defecto */
+      width: 115px; /* Ancho fijo */
+      text-align: center; /* Centrar el texto */
+    }
+
+    li:hover {
+      border: 2px solid red; /* Borde sólido de color rojo al pasar el cursor */
+    }
+  </style>
+</head>
+<body>
+  <h1>Universidad de Alicante</h1>
+  <!-- Elementos <li> con borde rojo al pasar el cursor -->
+  <ul>
+    <li>Presentación</li>
+    <li>Estudios</li>
+    <li>Alumnos</li>
+    <li>Deportes</li>
+    <li>Servicios</li>
+  </ul>
+</body>
+</html>
